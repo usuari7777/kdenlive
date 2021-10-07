@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Created using eXe: http://exelearning.org -->
+<head>
+<style type="text/css">
+@import url(base.css);
+@import url(content.css);
+@import url(nav.css);</style>
+<title> 2. Ubuntu - Codecs </title>
+<meta http-equiv="Content-Type" content="text/html;  charset=utf-8" />
+<script type="text/javascript" src="common.js"></script>
+</head>
+<body>
+<div id="content">
+<div id="header" >
+Edición de Audio y video</div>
+<div id="navcontainer">
+<ul id="navlist">
+<div><a href="index.html" class="withChild">3.1. Teoría del video Digital</a></div>
+<div><a href="introduccin_al_tema.html" class="withoutChild">Introducción al Tema</a></div>
+<div><a href="contenidos_del_tema.html" class="withoutChild">Contenidos del Tema</a></div>
+<div><a href="1_el_video_digital.html" class="withChild">1. El Video Digital</a></div>
+<div id="active" class="withChild">2. Ubuntu - Codecs</div>
+<div id="subnav" class="withoutChild">
+<div><a href="21_instalando_codecs.html" class="withoutChild">2.1. Instalando codecs</a></div>
+</div>
+<div><a href="3_reproductores_de_video.html" class="withoutChild">3. Reproductores de Video</a></div>
+<div><a href="4__enlaces_interesantes.html" class="withChild">4.  Enlaces Interesantes</a></div>
+<div><a href="5_resumen_del_tema.html" class="withoutChild">5. Resumen del Tema</a></div>
+<div><a href="6_autoevaluacin_del_tema.html" class="withoutChild">6. Autoevaluación del tema</a></div>
+<div><a href="7_ms_all.html" class="withChild">7. Más allá</a></div>
+</ul>
+</div>
+<div id="main">
+<div id="nodeDecoration"><p id="nodeTitle">2. Ubuntu - Codecs</p></div>
+<div class="customIdevice" id="id95">
+<div class="iDevice emphasis1">
+<img alt="Icono IDevice"      class="iDevice_icon" src="icon_reflection.gif"/>
+<span class="iDeviceTitle">Muy Importante</span>
+<div class="iDevice_inner">
+<div id="ta95_36_4" class="block" style="display:block;position:relative">Si  en tu sistema funciona de forma correcta los reproductores de video y, si al momento de editar, no tienes problemas para la exportación de ficheros este apartado puede resultarte muy engorroso y puedes prescindir del mismo.
+</div><br/>
+</div>
+</div>
+</div>
+<div class="activityIdevice" id="id58">
+<div class="iDevice emphasis1">
+<img alt="Icono IDevice"      class="iDevice_icon" src="icon_activity.gif"/>
+<span class="iDeviceTitle">Actividad</span>
+<div class="iDevice_inner">
+<div id="ta58_27_2" class="block" style="display:block;position:relative">
+<p>
+En muchas ocasiones descubrimos que nuestro sistema no puede reproducir un determinado video, bien descargado de internet, bien de nuestro reproductor de DVD/CD. 
+</p>
+<p align="justify">
+En estos casos el <b>sistema nos indica que le faltan codecs y que procede a instalarlos</b>. En otros casos, <font color="#003300"><i>debido a que forman parte del Software propietario</i></font>, el sistema no dispone de dichos paquetes. Es ahí donde tenenos que<b><font color="#003300"> instalar nuevos repositorios </font></b>en nuestros sistema para obtenerlos.
+</p>
+<p>
+La finalidad de este apartado es  mostrar como instalar la mayor parte de los códecs necesarios para reproducir la mayor parte de los videos  existentes.
+</p>
+</div><br/>
+</div>
+</div>
+</div>
+<div class="FreeTextIdevice" id="id59">
+<div class="iDevice emphasis0">
+<div id="ta59_1" class="block" style="display:block;position:relative">
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p>
+<table border="5">
+	<tbody>
+		<tr>
+			<td align="center"><b> INSTALANDO CODECS (UBUNTU)</b><br />
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td> Una forma sencilla de actualizar nuestros códecs1 multimedia en LliureX (Ubuntu):<br />
+			<ul>
+				<li>Abre el gestor de paquetes <b>Synaptic</b> (Sistema / Administración / Gestor de paquetes Synaptic)</li>
+			</ul>
+			<ul>
+				<li>Entra en <b>Configuración / Repositorios</b> (ver imagen izquierda inferior)</li>
+				<li>Activa los repositorios universe, restricted y multiverse (ver imagen derecha inferior)</li>
+			</ul>
+			<ul>
+				<li><font color="#000080"><b><br />
+				</b></font></li>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<td> <img src="synaptic.JPG" align="left" height="194" width="380" /></td>
+		</tr>
+		<tr>
+			<td> 
+			<div style="text-align: center">
+			<img src="synaptic2.JPG" height="386" width="694" />
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<ul>
+				<li></li>
+				<li>El sistema te mustra un mensaje que el contenido de los repositorios ha cambiado: Aceptar (1) y recargar (2) para que se actualicen nuestros repositorios.</li>
+				<li>Cierra el synaptic</li>
+				<li></li>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<td> 
+			<div style="text-align: center">
+			<img src="synaptic3.JPG" height="291" width="506" />
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<ul>
+				<li>  Abre un terminal</li>
+				<li>Teclea:
+				<ul>
+					<li>
+					<p class="western" align="left" lang="es-ES">
+					sudo
+					apt-get install gstreamer0.10-plugins-ugly
+					gstreamer0.10-plugins-ugly-multiverse gstreamer0.10-plugins-bad
+					gstreamer0.10-plugins-bad-multiverse gstreamer0.10-ffmpeg
+					gstreamer0.10-plugins-base gstreamer0.10-plugins-good
+					gstreamer0.10-plugins-ugly gstreamer0.10-ffmpeg gstreamer0.10-gl
+					gstreamer0.10-pitfdll libxine-main1 libxine-extracodecs libquicktime0
+					libdvdread3 <span style="background-color: #ffff00">flashplugin-nonfree
+					totem-gstreamer-firefox-plugin
+					unrar</span>
+					</p>
+					<ul>
+						<li>(En amarillo los que había problemas con ellos en versiones anteriores de LliureX a la actual)<font size="3"><font color="#ff0000"><font face="Arial, sans-serif"><b><br />
+						</b></font></font></font></li>
+					</ul>
+					</li>
+				</ul>
+				</li>
+			</ul>
+			</td>
+		</tr>
+		<tr>
+			<td> 
+			<div style="text-align: center">
+			<img src="Pantallazo-usuario@usuario-laptop__~.png" height="637" width="980" />
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div></div>
+</div>
+<div class="noprt" align="right"><a href="13_tamao_de_video_resolucin.html">&laquo; Anterior</a> | <a href="21_instalando_codecs.html"> Siguiente &raquo;</a></div>
+<p align="center">Este artículo está licenciado bajo <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/">Creative Commons Attribution-NonCommercial-ShareAlike 2.5 License</a></p><p align="center">Jo.R.C.A. 2004 - 2010
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/es/88x31.png" /></a><br /><span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type">Edición de Audio y Video con Software Libre</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://jrcerdeira.es/moodle" property="cc:attributionName" rel="cc:attributionURL">Jos&#233; Ram&#243;n Cerdeira Alonso</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/">Creative Commons Reconocimiento-No comercial-Compartir bajo la misma licencia 3.0 Espa&#241;a License</a></p></div>
+</div>
+</body></html>

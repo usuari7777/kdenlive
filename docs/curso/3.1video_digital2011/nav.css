@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ==========================
+    Restyling nav.css 
+========================== */
+
+
+body {
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+/* LEFT-HAND NAVIGATION */
+
+#navcontainer {
+	z-index: 1000;
+	width: 225px;
+	height: 100%; /* the holly hack for IE! */
+	float: left;
+	margin-top: 0px;
+	padding-top: 60px;
+	text-align: left;
+	position: absolute;
+	background-color: transparent;
+	line-height: 1.7em;
+	padding-top: 0;
+}
+
+#navcontainer ul {
+	padding: 10px;
+	padding: 0;
+}
+
+#navlist div {
+	padding-left: 20px;
+	border-bottom: solid 1px #D5E9F6;
+}
+
+div #active {
+	font-weight: bold;
+	background-color: #ffb349;
+	color: #FFFFFF;
+}
+
+
+div #active, #navcontainer a:link, #navcontainer a:visited {
+	color: #333333;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#navcontainer #subnav a:link, #navcontainer #subnav a:visited {
+	font-weight: normal;
+}
+
+/* MAIN CONTENT STYLES */
+
+#main {
+	margin-left: 260px;
+	margin-top: 0px;
+	width: 68%;
+	position: absolute;
+	text-align: left;
+	width: 72%;
+}
+
+#content {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+

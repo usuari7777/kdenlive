@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Created using eXe: http://exelearning.org -->
+<head>
+<style type="text/css">
+@import url(base.css);
+@import url(content.css);
+@import url(nav.css);</style>
+<title> 2. Paquetes recomendados </title>
+<meta http-equiv="Content-Type" content="text/html;  charset=utf-8" />
+<script type="text/javascript" src="common.js"></script>
+</head>
+<body>
+<div id="content">
+<div id="header" >
+Edición de Audio y video</div>
+<div id="navcontainer">
+<ul id="navlist">
+<div><a href="index.html" class="withChild">Inicio</a></div>
+<div><a href="contenidos_temporalizacin_y_criterios.html" class="withoutChild">Contenidos, Temporalización y Criterios</a></div>
+<div><a href="1_caractersticas_del_kdenlive.html" class="withoutChild">1. Características del Kdenlive</a></div>
+<div id="active" class="withoutChild">2. Paquetes recomendados</div>
+<div><a href="3_instalacin_del_kdenlive.html" class="withoutChild">3. Instalación del Kdenlive</a></div>
+<div><a href="4_ejecutar_primera_vez.html" class="withoutChild">4. Ejecutar Primera Vez</a></div>
+<div><a href="5__enlaces_interesantes.html" class="withoutChild">5.  Enlaces Interesantes</a></div>
+<div><a href="autoevaluacin.html" class="withoutChild">Autoevaluación</a></div>
+<div><a href="resumen_del_tema.html" class="withoutChild">Resumen del Tema</a></div>
+</ul>
+</div>
+<div id="main">
+<div id="nodeDecoration"><p id="nodeTitle">2. Paquetes recomendados</p></div>
+<div class="customIdevice" id="id101">
+<div class="iDevice emphasis1">
+<img alt="Icono IDevice"      class="iDevice_icon" src="icon_review.gif"/>
+<span class="iDeviceTitle">Introducción</span>
+<div class="iDevice_inner">
+<div id="ta101_24_4" class="block" style="display:block;position:relative"><div align="justify">
+Antes de instalar nuestro editor Kdenlive es recomendable instalar una serie de paquetes para disponer de ellos en el momento de la edición. Algunos son códecs de audio y  otros de video, otros son paquetes necesarios para la creación de aplicaciones multimedia y otros son paquetes necesarios para la reproducción de ficheros multimedia.<br />
+</div>
+</div><br/>
+</div>
+</div>
+</div>
+<div class="customIdevice" id="id102">
+<div class="iDevice emphasis1">
+<img alt="Icono IDevice"      class="iDevice_icon" src="icon_reading.gif"/>
+<span class="iDeviceTitle">Explicaciones</span>
+<div class="iDevice_inner">
+<div id="ta102_25_4" class="block" style="display:block;position:relative">
+<div align="center">
+<b>RECOMENDABLE INSTALAR LOS PAQUETES PREVIAMENTE</b>
+</div>
+<hr />
+<div align="center">
+</div>
+<div align="center">
+</div>
+<p>
+<b> Agregar el repositorio correspondiente </b>desde una terminal:<br />
+<br />
+</p>
+<blockquote>
+	<b>sudo
+	wget --output-document=/etc/apt/sources.list.d/medibuntu.list 
+	http://www.medibuntu.org/sources.list.d/$(lsb_release -cs).list 
+	&amp;&amp; sudo apt-get --quiet update &amp;&amp; sudo apt-get --yes 
+	--quiet --allow-unauthenticated install medibuntu-keyring &amp;&amp; 
+	sudo apt-get --quiet update</b>
+</blockquote>
+<br />
+Una vez agregados los repositorios,<b> instalamos los codecs:</b><br />
+<br />
+<blockquote>
+	Para la  reproducción de DVD:<br />
+	<b>sudo  apt-get install libdvdcss2</b>
+</blockquote>
+<blockquote>
+	<br />
+	El resto de codecs propietarios, todas  las plataformas:<br />
+	<b>sudo  apt-get install non-free-codecs</b>
+</blockquote>
+<blockquote>
+	<br />
+	Windows codecs para i386<br />
+	<b>sudo apt-get install w32codecs</b>
+</blockquote>
+<blockquote>
+	<br />
+	Windows codecs  para amd64<br />
+	<b>sudo  apt-get install w64codecs</b>
+</blockquote>
+<blockquote>
+	<br />
+	Windows codecs para ppc<br />
+	<b>sudo apt-get install ppc-codecs</b>
+</blockquote>
+<br />
+<hr />
+<p>
+Para instalar paquetes requerimos tener permisos de administrador.
+</p>
+<p>
+El contenido de esta sección esta basado en la web<a href="http://www.ubuntronics.com/2010/10/instalar-codecs-en-ubuntu-1010-maverick.html"> Instalar codecs en Ubuntu 10.10 &quot;Maverick Meerkat&quot; [medibuntu] </a>
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p>
+</div><br/>
+</div>
+</div>
+</div>
+<div class="customIdevice" id="id105">
+<div class="iDevice emphasis1">
+<img alt="Icono IDevice"      class="iDevice_icon" src="icon_e_gloss.gif"/>
+<span class="iDeviceTitle">Más allá - Añadir más paquetes</span>
+<div class="iDevice_inner">
+<div id="ta105_29_7" class="block" style="display:block;position:relative">
+<p>
+Desde una terminal comprueba si los siguientes paquetes o sus contenidos  se encuentran instalados. 
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+* transcoder (sox)<br />
+* mencoder<br />
+* Lame<br />
+* Ffmpeg <br />
+* Mpg123<br />
+* mjpegtool<br />
+* gstreamer0.10-plugins-ugly<br />
+* gstreamer0.10-plugins-ugly-multiverse<br />
+* gstreamer0.10-plugins-bad<br />
+* gstreamer0.10-plugins-bad-multiverse<br />
+* gstreamer0.10-ffmpeg<br />
+* gstreamer0.10-plugins-base<br />
+* gstreamer0.10-plugins-good<br />
+* gstreamer0.10-plugins-ugly<br />
+* streamer0.10-ffmpeg <br />
+* gstreamer0.10-pitfdll flashplugin-nonfree<br />
+* unrar
+</p>
+<p>
+<img src="gstream.png" height="442" vspace="5" width="680" align="baseline" border="5" /> 
+</p>
+</div><br/>
+</div>
+</div>
+</div>
+<div class="noprt" align="right"><a href="1_caractersticas_del_kdenlive.html">&laquo; Anterior</a> | <a href="3_instalacin_del_kdenlive.html"> Siguiente &raquo;</a></div>
+<p align="center">Jo.R.C.A. 2004 - 2011
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/es/88x31.png" /></a><br /><span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type">Edición de Audio y Video con Software Libre</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://jrcerdeira.es/moodle" property="cc:attributionName" rel="cc:attributionURL">Jos&#233; Ram&#243;n Cerdeira Alonso</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/">Creative Commons Reconocimiento-No comercial-Compartir bajo la misma licencia 3.0 Espa&#241;a License</a></p></div>
+</div>
+</body></html>

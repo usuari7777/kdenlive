@@ -1,0 +1,198 @@
+* html{
+margin:0;
+padding:0;
+}
+body{
+	background-image: url(imgs/cabecera.jpg);
+	background-repeat: no-repeat;
+}
+a {
+font-family: Arial, Helvetica, sans-serif;
+font-weight:bold;
+text-decoration:none;
+color: #3366CC;
+}
+#todo{
+width:100%;
+margin:0;
+padding:0;
+position:absolute;
+top:0;
+left:0;
+}
+#cabecera{
+width:100%;
+margin:0;
+padding:0;
+height:145px;
+}
+#cuerpo{
+width:100%;
+margin:0;
+padding:0;
+}
+#pie{
+width:100%;
+margin:0;
+padding:0;
+height:45px;
+background-image: url(imgs/cabecera.jpg);
+background-repeat: no-repeat;
+}
+#index{
+	position: absolute;
+	/*z-index:10px;*/
+	top: 0px;
+	left: 0px;
+	height: 96px;
+	width:83px;
+	font-size:18px;
+	
+}	
+	.volver {
+	position:absolute;
+	background-color:#FFFFFF;
+	top: 74px;
+	left: 9px;
+	height: 37px;
+	width:83px;
+	color:#4d4d4d;
+	font-size:12pt;
+	text-align:center;
+	top:70px;}
+.volver a:hover{
+	position:absolute;
+	background-color:#FFFFFF;
+	top: 71px;
+	left: 10px;
+	height: 37px;
+	width:83px;
+	color: #999999;
+	font-size:12pt;
+	text-align:center;
+	top:70px;}
+	
+#index span{
+display:none;
+}
+body {
+margin:0;
+padding:0;
+}
+body {
+margin:0;
+padding:0;
+}.menu { 
+font-family: Verdana,Arial,Helvetica,Sans-serif;
+	margin:0 0 0 180px;
+	position:absolute;
+	top:0px;	
+	_top: 105px;
+	/*width: 85%;
+	_width: 75%;*/
+	z-index:20;
+	height:40px;
+}
+.menu ul {
+padding:0; 
+margin:0;
+list-style-type: none;
+clear:both;
+}
+.menu li {           
+float:left;
+margin:0;
+padding:0;
+background:#ffffff ;
+height:18px;
+line-height:18px;
+}
+.menu ul li a , .menu ul li a:visited{            
+display:block;
+ 
+float:left;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+text-decoration:none; 
+height:18px;
+line-height:18px;
+padding:0 3px 0 3px;
+margin:0;
+color: #000000; text-align:center;
+font-size: .7em;
+_font-size: .6em;
+border:thin solid #3E3C63;
+_border: 1pt solid #3E3C63;
+background-color: #FFFFFF; 
+}.menu ul li a:hover{
+color: #000;
+background-color: #FF9933 ;
+}
+.menu ul li a#actual {
+  background-color: #ccc;
+}
+
+h1{
+font-family: Arial-Black, Arial, Helvetica, sans-serif;
+font-size:30pt;
+font-stretch :condensed;
+text-align: left;
+padding:0;
+color:#FFFFFF;
+}
+h2{
+font-family: Arial-Black, Arial, Helvetica, sans-serif;
+font-size:1.5em;
+font-stretch :condensed;
+text-align:right;
+padding-right:20px;
+}
+h3{
+font-family: Arial, Helvetica, sans-serif;
+font-size:1.2em;
+font-stretch:condensed;
+color:#F3F2E7;
+padding-right:20px;
+}
+h4{
+font-family: Arial, Helvetica, sans-serif;
+font-size:1em;
+font-stretch:condensed;
+}
+h5{
+font-family: Verdana, Helvetica, sans-serif;
+font-size:.9em;
+font-stretch:condensed;
+color:#000;
+padding:1em 0 1em 20px;}
+h6{
+font-family:Arial, Helvetica, sans-serif;
+font-size: .8em;
+font-weight:bold;
+font-stretch:condensed;
+color:#000;
+padding:1em 0 1em 20px;
+/*margin-bottom:-5px;
+border-bottom-style: dashed;
+border-bottom:2px;*/
+}
+pre{
+font-size:1.3em;
+margin-bottom:0;
+padding-bottom:0;
+}
+img{
+padding:.5em 0 1em 0;
+}
+img.alineada{
+padding:0 .5em 0 .5em;
+}
+ol{
+color:#CE1E04;
+font-weight:bold;
+}
+dl{
+font-size:.9em;}
+.centrao{
+text-align:center
+}
+

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Created using eXe: http://exelearning.org -->
+<head>
+<style type="text/css">
+@import url(base.css);
+@import url(content.css);
+@import url(nav.css);</style>
+<title> 1.3.2. Códecs </title>
+<meta http-equiv="Content-Type" content="text/html;  charset=utf-8" />
+<script type="text/javascript" src="common.js"></script>
+</head>
+<body>
+<div id="content">
+<div id="header" >
+Edición de Audio y video</div>
+<div id="navcontainer">
+<ul id="navlist">
+<div><a href="index.html" class="withChild">3.1. Teoría del video Digital</a></div>
+<div><a href="introduccin_al_tema.html" class="withoutChild">Introducción al Tema</a></div>
+<div><a href="contenidos_del_tema.html" class="withoutChild">Contenidos del Tema</a></div>
+<div><a href="1_el_video_digital.html" class="withChild">1. El Video Digital</a></div>
+<div id="subnav" class="withoutChild">
+<div><a href="11_conceptos_bsicos_del_video_digital.html" class="withoutChild">1.1. Conceptos Básicos del Video Digital</a></div>
+<div><a href="12_formatos_y_cdecs.html" class="withChild">1.2. Formatos y Códecs</a></div>
+<div id="subnav" class="withoutChild">
+<div><a href="131_formatos.html" class="withoutChild">1.3.1. Formatos</a></div>
+<div id="active" class="withChild">1.3.2. Códecs</div>
+<div id="subnav" class="withoutChild">
+<div><a href="1321_cdec_de_video_definicin.html" class="withoutChild">1.3.2.1. CÓDEC de Video (Definición)</a></div>
+</div>
+</div>
+<div><a href="13_tamao_de_video_resolucin.html" class="withoutChild">1.3. Tamaño de Video (Resolución)</a></div>
+</div>
+<div><a href="2_ubuntu__codecs.html" class="withChild">2. Ubuntu - Codecs</a></div>
+<div><a href="3_reproductores_de_video.html" class="withoutChild">3. Reproductores de Video</a></div>
+<div><a href="4__enlaces_interesantes.html" class="withChild">4.  Enlaces Interesantes</a></div>
+<div><a href="5_resumen_del_tema.html" class="withoutChild">5. Resumen del Tema</a></div>
+<div><a href="6_autoevaluacin_del_tema.html" class="withoutChild">6. Autoevaluación del tema</a></div>
+<div><a href="7_ms_all.html" class="withChild">7. Más allá</a></div>
+</ul>
+</div>
+<div id="main">
+<div id="nodeDecoration"><p id="nodeTitle">1.3.2. Códecs</p></div>
+<div class="customIdevice" id="id82">
+<div class="iDevice emphasis1">
+<img alt="Icono IDevice"      class="iDevice_icon" src="icon_reflection.gif"/>
+<span class="iDeviceTitle">Qué es un Códec</span>
+<div class="iDevice_inner">
+<div id="ta82_49_4" class="block" style="display:block;position:relative">
+<div align="justify">
+<ul>
+	<li> El <font color="#333300"><b>término códec</b> </font>procede de las palabras
+	<font color="#333300"><b>CODificador/DECodificador</b></font>. Cada códec está constituído por un conjunto
+	de librerías que implementan diferentes algoritmos. El objetivo
+	fundamental de estos algoritmos es la<b><font color="#333300"> compresión y decompresión</font></b> de
+	audio y vídeo digital. </li>
+</ul>
+</div>
+<ul>
+	<li>
+	Un ejemplo de códec de audio es MP3 y de códec de vídeo es Xvid.
+	</li>
+</ul>
+<ul>
+	<li><b><font color="#333300"> Un contenedor es un tipo de archivo</font></b> cuyo cometido es
+	almacenar información. Por ejemplo: el formato contenedor AVI puede
+	contener datos de audio en MP3 y de vídeo en DivX, lo que hace posible
+	almacenar un vídeo en el que la imagen y el sonido estén sincronizados.
+	Es importante no confundir este concepto con el de códec; un contenedor
+	sólo almacena la información y un códec es un elemento software que la
+	transforma, no almacena nada.</li>
+</ul>
+<br />
+<font size="1">Información tomada de <a href="http://www.atc.uniovi.es/inf_med_gijon/3iccp/2005/trabajos/codecs/">http://www.atc.uniovi.es/inf_med_gijon/3iccp/2005/trabajos/codecs/</a></font>
+</div><br/>
+</div>
+</div>
+</div>
+<div class="customIdevice" id="id83">
+<div class="iDevice emphasis1">
+<img alt="Icono IDevice"      class="iDevice_icon" src="icon_key_points.gif"/>
+<span class="iDeviceTitle">CÓDECS. TÉCNICAS DE COMPRENSIÓN</span>
+<div class="iDevice_inner">
+<div id="ta83_51_6" class="block" style="display:block;position:relative">
+<p>
+La mayor parte de la compresión se consigue mediante dos
+técnicas. 
+</p>
+<ul>
+	<li>
+	<div align="justify">
+	Primera técnica <font color="#000080"><b>(&quot;Lossy Data Compression&quot;)</b></font>: consiste en <b><font color="#000080">poner cada cierto número de imágenes
+	(frames) un fotograma completo</font></b>, y en puestos intermedios, <font color="#000080"><b>ir eliminando
+	distintas partes en las que no haya movimiento</b></font>, como por ejemplo los
+	fondos. Así, al hacerse pasar los distintos frames muy rápido, el
+	espectador no notará que las imágenes no están completas una a una. <br />
+	</div>
+	</li>
+	<li>
+	<div align="justify">
+	La
+	segunda técnica <b><font color="#000080">(&quot;Lossless Data Compression&quot;)</font></b> explota una propiedad del ojo humano; éste es más
+	sensible a cambios rápidos de brillo que de color, por lo que <b><font color="#000080">se pueden
+	eliminar componentes de color sin perder en calidad </font></b>en la percepción.
+	</div>
+	</li>
+</ul>
+</div><br/>
+</div>
+</div>
+</div>
+<div class="customIdevice" id="id84">
+<div class="iDevice emphasis1">
+<img alt="Icono IDevice"      class="iDevice_icon" src="icon_e_gloss.gif"/>
+<span class="iDeviceTitle">Más allá - Tipos de Comprensión</span>
+<div class="iDevice_inner">
+<div id="ta84_53_7" class="block" style="display:block;position:relative"><div align="justify">
+<b>Comprensión sin pérdida de
+información</b>: &quot;Lossless
+Data Compression&quot; define el conjunto de algoritmos que permite
+que la información sea comprimida y decodificada sin perder nada en
+el proceso.
+</div>
+<div align="justify">
+</div>
+<p align="justify" lang="es-ES">
+&nbsp;
+</p>
+<div align="justify">
+</div>
+<ul>
+	<li>
+	<div align="justify">
+	</div>
+	<div align="justify">
+	</div>
+	<div align="justify">
+	<b>H.264:</b>
+	También conocido como MPEG4 AVC o MPEG4 Part 10, este codec fue
+	diseñado para sustituir a formatos como MPEG2 o MPEG4 Layer 2,
+	consiguiendo un vídeo de alta calidad con unas tasas de bits
+	sustancialmente inferiores a anteriores codecs. Ha sido incluido en
+	los estándares de vídeo de alta definición HD-DVD y BluRay.
+	</div>
+	<p class="western" align="center" lang="es-ES">
+	<img src="h264-mpeg4-avc-logo-new.png" align="bottom" border="5" height="302" hspace="10" vspace="10" width="368" />
+	</p>
+	</li>
+</ul>
+<br />
+<p class="western" align="justify" lang="es-ES">
+<b>Comprensión con pérdida de
+información</b>: &quot;Lossy Data Compression&quot; es el tipo de
+codificación más típica, ya que se reduce la cantidad de
+información requerida para hacer llegar al destinatario una imagen
+en movimiento. Se puede optar por una transformación de la
+información original en otra más simple, reduciendo la tasa de
+bits necesaria para ser transmitida, o por la reducción de
+información a través de la predicción de los cambios en la
+imagen, enviando tan solo los cambios existentes de un fotograma a
+otro.<img src="xvid.jpg" align="right" border="5" height="219" hspace="10" vspace="10" width="231" />
+</p>
+<div align="justify">
+</div>
+<ul>
+	<li>
+	<div align="justify">
+	</div>
+	<p class="western" align="justify" lang="es-ES">
+	<b>MPEG4 ASP:</b> También
+	conocido como MPEG4 Part 2, es uno de los más utilizados en alguno
+	de sus &quot;sabores&quot; comerciales: DivX (o su clon gratuito
+	Xvid), o sobretodo por los codecs libres FFmpeg MPEG4. Es un codec
+	muy popular para la distribución de vídeo a través de Internet.
+	</p>
+	</li>
+	<li>
+	<div align="justify">
+	</div>
+	<p class="western" align="justify" lang="es-ES">
+	<b>H.261/H.263/H.264:</b>
+	Diseñados originalmente para su uso para videoconferencia, estos
+	formatos han sido la base de aplicaciones como el Flash Video, y
+	los codecs de RealVideo hasta hace poco, quedando sustituidos por
+	el codec VP6 en el caso de Flash, y en codecs propietarios en el
+	caso de RealVideo, que ofrecen mayor calidad para tasas de bits
+	bajas. 
+	</p>
+	</li>
+	<li>
+	<div align="justify">
+	</div>
+	<p class="western" align="justify" lang="es-ES">
+	<b>Cinepak:</b> Incluído en el
+	paquete inicial de codecs para el formato Quicktime de Apple, y
+	basado en cuantización vectorial (a diferencia de la inmensa
+	mayoría de codecs actuales, basados en transformación discreta de
+	cosenos), este formato ha quedado obsoleto. 
+	</p>
+	</li>
+	<li>
+	<div align="justify">
+	</div>
+	<p class="western" align="justify" lang="es-ES">
+	<b>MPEG 2:</b> Es uno de los
+	codecs más utilizados en la codificación de películas, y es
+	utilizado tanto en la emisión digital a través de redes
+	terrestres o satelitales, así como en los DVD-Vídeo.
+	</p>
+	</li>
+	<li>
+	<div align="justify">
+	</div>
+	<p class="western" align="justify" lang="es-ES">
+	<b>Windows Media:</b> El codec
+	de Windows Media Video es la apuesta de Microsoft .  Está diseñado
+	para competir con DivX y MPEG4 AVC.
+	</p>
+	</li>
+	<li>
+	<div align="justify">
+	</div>
+	<p class="western" align="justify" lang="es-ES">
+	<b>VC-1: </b>Microsoft también
+	apostó por el VC-1, también conocido como SMPTE 421M, y basado en
+	el Windows Media Video 9. Es el codec oficial de la Xbox 360 y ha
+	sido tomado como estándar para los reproductores HD-DVD y BluRay.
+	</p>
+	</li>
+</ul>
+
+</div><br/>
+</div>
+</div>
+</div>
+<div class="noprt" align="right"><a href="131_formatos.html">&laquo; Anterior</a> | <a href="1321_cdec_de_video_definicin.html"> Siguiente &raquo;</a></div>
+<p align="center">Este artículo está licenciado bajo <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/">Creative Commons Attribution-NonCommercial-ShareAlike 2.5 License</a></p><p align="center">Jo.R.C.A. 2004 - 2010
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/es/88x31.png" /></a><br /><span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type">Edición de Audio y Video con Software Libre</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://jrcerdeira.es/moodle" property="cc:attributionName" rel="cc:attributionURL">Jos&#233; Ram&#243;n Cerdeira Alonso</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/">Creative Commons Reconocimiento-No comercial-Compartir bajo la misma licencia 3.0 Espa&#241;a License</a></p></div>
+</div>
+</body></html>

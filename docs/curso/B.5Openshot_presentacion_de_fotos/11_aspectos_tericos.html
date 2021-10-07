@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Created using eXe: http://exelearning.org -->
+<head>
+<style type="text/css">
+@import url(base.css);
+@import url(content.css);
+@import url(nav.css);</style>
+<title> 1.1. Aspectos Teóricos </title>
+<meta http-equiv="Content-Type" content="text/html;  charset=utf-8" />
+<script type="text/javascript" src="common.js"></script>
+</head>
+<body>
+<div id="content">
+<div id="header" >
+Edición de Audio y video</div>
+<div id="navcontainer">
+<ul id="navlist">
+<div><a href="index.html" class="withChild">Introducción</a></div>
+<div><a href="contenidos_temporalizacin_y_criterios.html" class="withoutChild">Contenidos, Temporalización y Criterios</a></div>
+<div><a href="1_conociendo_el_openshot__quinta_parte.html" class="withChild">1. Conociendo el Openshot - Quinta Parte</a></div>
+<div id="subnav" class="withoutChild">
+<div id="active" class="withoutChild">1.1. Aspectos Teóricos</div>
+</div>
+<div><a href="2_diapositivas_de_imgenes.html" class="withChild">2. Diapositivas de Imágenes</a></div>
+<div><a href="3_enlaces_interesantes.html" class="withoutChild">3. Enlaces Interesantes</a></div>
+<div><a href="resumen_del_tema.html" class="withoutChild">Resumen del Tema</a></div>
+<div><a href="autoevaluacin.html" class="withoutChild">Autoevaluación</a></div>
+</ul>
+</div>
+<div id="main">
+<div id="nodeDecoration"><p id="nodeTitle">1.1. Aspectos Teóricos</p></div>
+<div class="customIdevice" id="id182">
+<div class="iDevice emphasis1">
+<img alt="Icono IDevice"      class="iDevice_icon" src="icon_reading.gif"/>
+<span class="iDeviceTitle">1- Importar Imágenes</span>
+<div class="iDevice_inner">
+<div id="ta182_23_4" class="block" style="display:block;position:relative">
+<div align="justify">
+Este proceso se aplica para importar todas las imágenes, de una carpeta determinada y siguiendo un patrón determinado, para generar un video con ellas. <br />
+</div>
+<div align="justify">
+El primer paso es <b>Archivo / Importar secuencias de Imágenes</b>.<br />
+</div>
+<div align="justify">
+<div style="text-align: center">
+<img src="t5-5.JPG" border="5" height="300" vspace="5" width="342" />
+</div>
+</div>
+<div align="justify">
+2. Debemos ubicar nuestras imágenes, que deseamos importar como secuencia, en una carpeta y siguiendo un patrón de nombres. Ejemplo: normal_flor001.jpg, normal_flor002.jpg y así hasta la última foto normal_florxxx.jpg. 
+</div>
+<div align="justify">
+Cuando tomas fotos con una cámara digital esta las nombra con un patrón, generalmente, de IMGxxx1.JPG, donde xxx representa la numeración consecutiva del número de foto respectiva.
+</div>
+<div align="justify">
+En los recursos del tema de video de este curso dispones de una carpeta con una serie de fotos (carpeta flores) que siguen el patrón que mostramos en la imagen. 
+</div>
+<div align="justify">
+</div>
+<div align="justify">
+</div>
+<div align="justify">
+</div>
+<div align="justify">
+<div style="text-align: center">
+<img src="t5-3p.JPG" border="5" height="512" vspace="10" width="660" />
+</div>
+<br />
+</div>
+<p>
+Al momento de importar las imágenes debes indicar el<b> patrón de su nombre</b> (1). El patrón anterior normal_flor%03d.JPG significa:
+</p>
+<ul>
+	<li>normal_flor: comienzo del nombre de todas las imágenes antes de la numeración</li>
+	<li>%03d: significa que el formato de los números son 3 números decimales (001, 002, 003, ...). <br />
+	<ul>
+		<li>
+		<address>
+		En caso de que fuera un sólo número (ejemplo: foto1.png, foto2.png, ..) tendríamos como patrón foto%d.png</address></li>
+		<li>Si las imágenes se denominaran 0001.png, 0002.png ... el patrón sería %04d.png o %d.png</li>
+	</ul>
+	</li>
+</ul>
+<p>
+Seguidamente, los cuadros por imagen (2). Esto nos servirá para determinar la cantidad de segundos, que en el video que generaremos, se mostrará cada imagen o fotografía. Ejemplo: si nuestro proyecto es de 25 fps (frames por segundo) y deseamos que una imagen aparezca dos segundos, el valor del cuadro es de 50. Es decir, los 50 cuadros es el producto del número de cuadros o frames /segundo (25)  multiplicado por los 2 segundos que deseamos que se muestre.
+</p>
+<p>
+Indicaremos (3) la carpeta en la que se encuentran las imágenes a importar.
+</p>
+<p>
+&nbsp;
+</p>
+<p style="background-color: #ffff00" align="justify">
+<b><i><font color="#003366">
+<hr />
+Nota: para que el proceso funcione deben existir, cómo mínimo, dos imágenes que cumplan el patrón indicado en (1) de la imagen superior. De no cumplirse esta norma se te mostrará un mensaje que te indica el error.</font></i></b>
+</p>
+<p>
+&nbsp;
+</p>
+<div style="text-align: center">
+<img src="t5-8.JPG" border="5" height="155" vspace="5" width="339" />
+</div>
+<hr />
+</div><br/>
+</div>
+</div>
+</div>
+<div class="customIdevice" id="id190">
+<div class="iDevice emphasis1">
+<img alt="Icono IDevice"      class="iDevice_icon" src="icon_reading.gif"/>
+<span class="iDeviceTitle">2-Extraer Imágenes del Video</span>
+<div class="iDevice_inner">
+<div id="ta190_21_4" class="block" style="display:block;position:relative">
+<p>
+Para generar una carpeta, con los cuadros o frames, exportados a imágenes (formato png) debemos realizar los siguientes pasos:
+</p>
+<p>
+1-Importar el video que se desea convertir a imágenes al árbol de archivos
+</p>
+<p>
+2-Seleccionar el videoen el árbol de archivos
+</p>
+<p>
+3-Botón derecho / <b>convertir en secuencia de imágenes</b>. El proceso puede ser inmediato o tardar mucho tiempo de acorde al tamaño del video a exportar.  
+</p>
+<p>
+&nbsp;
+</p>
+<div style="text-align: center">
+<img src="t5-6.JPG" border="5" height="305" vspace="10" width="512" />
+</div>
+<p>
+&nbsp;
+</p>
+<hr />
+<div align="justify">
+<i><b><font color="#000080"><span style="background-color: #ffff00">
+Recomendación: No exportes videos enteros, si lo que deseas es una parte del video, utiliza la herramienta cortar y exportar el video antes de proceder a convertirlo en imágenes.</span></font></b></i>
+</div>
+<p>
+&nbsp;
+</p>
+<hr />
+<p align="justify">
+4- Una vez realizado el proceso de exportación, en la carpeta de origen de nuestro video original se crea una carpeta con el nombre del video y las imágenes generadas siguiendo un patrón de nombres. 
+</p>
+<ul>
+	<li>En nuestro caso el video se denominaba falla_ayto_2011 y la carpeta se genera con dicho nombre. </li>
+	<li>El patrón de las imágenes lleva el nombre del fichero de video y el número de foto: falla_ayto_2011_%d.png</li>
+</ul>
+<p align="justify">
+&nbsp;
+</p>
+<div style="text-align: center">
+<img src="t5-10.JPG" border="5" height="425" vspace="10" width="629" />
+</div>
+<p>
+&nbsp;
+</p>
+<p align="justify">
+5. En el árbol de archivos aparece un nuevo fichero que se refiere a la secuencia de  imágenes. Observa que dura lo mismo que el fichero de video original.
+</p>
+<p align="justify">
+&nbsp;
+</p>
+<div style="text-align: center">
+<img src="t5-9.JPG" border="5" height="182" vspace="5" width="516" />
+</div>
+<br />
+<p>
+  El video de secuencias en la mayoría de distribuciones no se puede reproducir. Indica como video inválido.
+</p>
+</div><br/>
+</div>
+</div>
+</div>
+<div class="customIdevice" id="id193">
+<div class="iDevice emphasis1">
+<img alt="Icono IDevice"      class="iDevice_icon" src="icon_reading.gif"/>
+<span class="iDeviceTitle">3-Proceso manual de Presentación</span>
+<div class="iDevice_inner">
+<div id="ta193_21_4" class="block" style="display:block;position:relative">
+<p>
+Para realizar una presentación de imágenes y generar un video se han de seguir los procesos realizados en los temas anteriores.
+</p>
+<p>
+1- Importar a la zona de  archivos del Proyecto cada una de las imágenes como si fuera un clip de video o sonido.
+</p>
+<p>
+&nbsp;
+</p>
+<div style="text-align: center">
+<img src="t5-11.JPG" border="5" height="333" vspace="10" width="660" />
+</div>
+<div style="text-align: center">
+ 
+</div>
+<p>
+&nbsp;
+</p>
+<p align="justify">
+ 2-Utilizar las imágenes en la línea de tiempo como cualquier clip de video. Podemos incorporarle transiciones, efectos y todo lo que la línea del tiempo nos lo permite.
+</p>
+<p>
+&nbsp;
+</p>
+<div style="text-align: center">
+<img src="t5-12.JPG" border="5" height="119" vspace="10" width="660" />
+</div>
+<p>
+&nbsp;
+</p>
+</div><br/>
+</div>
+</div>
+</div>
+<div class="customIdevice" id="id192">
+<div class="iDevice emphasis1">
+<img alt="Icono IDevice"      class="iDevice_icon" src="icon_e_gloss.gif"/>
+<span class="iDeviceTitle">Más allá</span>
+<div class="iDevice_inner">
+<div id="ta192_25_7" class="block" style="display:block;position:relative">Si deseas un conocimiento más amplio de los apartados de la pantalla principal, <a href="http://www.openshotusers.com/help/es/ar01s07.html">haz clic aquí</a>.
+</div><br/>
+</div>
+</div>
+</div>
+<div class="noprt" align="right"><a href="1_conociendo_el_openshot__quinta_parte.html">&laquo; Anterior</a> | <a href="2_diapositivas_de_imgenes.html"> Siguiente &raquo;</a></div>
+<p align="center">Jo.R.C.A. 2004 - 2011
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/es/88x31.png" /></a><br /><span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type">Edición de Audio y Video con Software Libre</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://jrcerdeira.es/moodle" property="cc:attributionName" rel="cc:attributionURL">Jos&#233; Ram&#243;n Cerdeira Alonso</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/">Creative Commons Reconocimiento-No comercial-Compartir bajo la misma licencia 3.0 Espa&#241;a License</a></p></div>
+</div>
+</body></html>

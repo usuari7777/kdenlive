@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Created using eXe: http://exelearning.org -->
+<head>
+<style type="text/css">
+@import url(base.css);
+@import url(content.css);
+@import url(nav.css);</style>
+<title> 3. Problemas Iniciales y Soluciones </title>
+<meta http-equiv="Content-Type" content="text/html;  charset=utf-8" />
+<script type="text/javascript" src="common.js"></script>
+</head>
+<body>
+<div id="content">
+<div id="header" >
+Edición de Audio y video</div>
+<div id="navcontainer">
+<ul id="navlist">
+<div><a href="index.html" class="withChild">Introducción</a></div>
+<div><a href="contenidos_temporalizacin_y_criterios.html" class="withoutChild">Contenidos, Temporalización y Criterios</a></div>
+<div><a href="1_paquetes_o_aplicaciones.html" class="withChild">1. Paquetes o Aplicaciones</a></div>
+<div><a href="2_instalacin_de_paquetes.html" class="withChild">2. Instalación de paquetes</a></div>
+<div id="active" class="withChild">3. Problemas Iniciales y Soluciones</div>
+<div id="subnav" class="withoutChild">
+<div><a href="31_video_resumen_de_problemas.html" class="withoutChild">3.1. Video Resumen de Problemas</a></div>
+</div>
+<div><a href="4__enlaces_interesantes.html" class="withoutChild">4.  Enlaces Interesantes</a></div>
+<div><a href="resumen_del_tema.html" class="withoutChild">Resumen del Tema</a></div>
+<div><a href="autoevaluacin.html" class="withoutChild">Autoevaluación</a></div>
+</ul>
+</div>
+<div id="main">
+<div id="nodeDecoration"><p id="nodeTitle">3. Problemas Iniciales y Soluciones</p></div>
+<div class="customIdevice" id="id190">
+<div class="iDevice emphasis1">
+<img alt="Icono IDevice"      class="iDevice_icon" src="icon_assignment.gif"/>
+<span class="iDeviceTitle">Problema al Instalar paquetes</span>
+<div class="iDevice_inner">
+<div id="ta190_22_4" class="block" style="display:block;position:relative">
+<p>
+Si es la <font color="#000080"><b style="background-color: #ffff99">primera vez que utilizamos nuestro LliureX</b></font> (versiones 10.09  o 11.09) nos podemos encontrar que, al querer instalar ciertos programas o códecs, el sistema nos muestra un mensaje que no puede instalarlos por problemas de copyright o de permisos.
+</p>
+<p>
+Esto ocurre, principalmente, al instalar el programa Kdenlive necesario  para este curso. Esto se debe a que el Kdenlive requiere de ciertos paquetes que no se encuentran en los repositorios lliureX por defecto.
+</p>
+<p>
+&nbsp;
+</p>
+<p style="background-color: #ffff99">
+<font color="#ff0000"><b>PRIMER PASO: ACTIVAR FUENTES EN REPOSITORIOS UBUNTU </b></font>
+</p>
+<p>
+Para ello debemos activar los repositorios de Ubuntu en nuestro Gestor de paquetes Synaptic:
+</p>
+<ol>
+</ol>
+<ul>
+	<li><b>Sistema / Administración / gestor de paquetes Synaptic</b></li>
+	<li><img src="prologo31.JPG" align="right" border="5" height="183" vspace="10" width="376" />Entramos en Parámetros / Repositorios (ver imagen derecha).</li>
+</ul>
+<br />
+<br />
+<br />
+<br />
+<br />
+<ul>
+	<li>Activamos las fuentes por internet y seleccionamos las fuentes Ubuntu y aceptamos.</li>
+</ul>
+<p>
+<i></i>
+</p>
+<p>
+<img src="prologo32.JPG" align="bottom" border="5" height="400" hspace="20" width="473" /> <br />
+<i>Si trabajas en tu centro y no te permite realizar esta opción, o dispones de una réplica local  o en el servidor del centro, has de comentar esta salvedad con el Coordinador de Aula o con el Coordinador TIC para solucionar la salvedad.</i>
+</p>
+<p>
+&nbsp;
+</p>
+<img src="prologo33.JPG" align="left" border="5" height="139" hspace="20" vspace="0" width="184" />
+<ul>
+	<li><img src="prologo34.JPG" align="right" border="5" height="162" vspace="20" width="300" /> Una vez adicionadas las fuentes, el sistema te mostrará un mensaje de las fuentes actualizadas. </li>
+</ul>
+<ul>
+	<li>Es recomendable refrescar los paquetes en la pantalla principal.</li>
+</ul>
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p>
+<p style="background-color: #ffff99">
+<font color="#ff0000"><b>SEGUNDO PASO: INSTALAR REPOSITORIO MEDIBUNTU</b></font>
+</p>
+<p>
+<i><b>Medibuntu</b> es un repositorio de paquetes de software (tanto libres como no libres), relacionados con paquetes multimedia, que no pueden ser incluídos en las distribucciones Ubuntu por problemas relacionados con las licencias (copyright).  </i>
+</p>
+<p>
+<i>Estos paquetes son requeridos por algunas aplicaciones (kdenlive, por ejemplo) y que son requeridos por otros paquetes (codecs) para un buen funcionamiento de diversas aplicaciones (crear imágenes ISO, reproducir dvd, codecs propietarios requeridos para visualizar videos,  por ejemplo). </i>
+</p>
+<p>
+<i>Algunos de estas librerías son ilegales en los EEUU, mientras que en España y otros países no lo son. Ejemplo: el lector de DVD.<br />
+</i>
+</p>
+<p>
+&nbsp;
+</p>
+<ul>
+	<li> 
+	Abre un terminal. <b>Aplicaciones / Accesorios / Terminal</b>.  Si usas un ordenador del centro requieres de permisos de administrador.</li>
+</ul>
+<p>
+<i>El comando sudo otorga privilegios que permiten suplantar al administrador del sistema (root). Los usuarios o grupos de usuarios que tienen derecho a hacerlo se encuentran en el fichero sudoers. Si tienes dudas contacta con el Coordinador de tu centro o, en este caso, con el ponente del curso.</i>
+</p>
+<ul>
+	<li>Teclea <b>sudo su </b>(<b>su</b>perusuari <b>do</b> = hacer de superusuario). Introduce la contraseña y, al aparecer, el símbolo # ya tienes privilegios de superusuario.</li>
+</ul>
+<div style="text-align: center">
+<img src="prologo35.JPG" border="5" height="66" vspace="10" width="350" />
+</div>
+<ul>
+	<li><b>Agregar un repositorio</b> desde la terminal (copia el texto inferior y la pegas en la línea de tu terminal).</li>
+</ul>
+<blockquote>
+	<b><i>sudo wget --output-document=/etc/apt/sources.list.d/medibuntu.list 
+	http://www.medibuntu.org/sources.list.d/$(lsb_release -cs).list 
+	&amp;&amp; sudo apt-get --quiet update &amp;&amp; sudo apt-get --yes 
+	--quiet --allow-unauthenticated install medibuntu-keyring &amp;&amp; 
+	sudo apt-get --quiet update</i></b>
+</blockquote>
+<div style="text-align: center">
+<img src="prologo36.JPG" border="5" height="79" vspace="10" width="350" />
+</div>
+<ul>
+	<li>Teclea <b>sudo apt-get update.  </b>Esta instrucción nos actualiza las fuentes de nuestros repositorios.</li>
+	<li>Teclea <b>sudo apt-get install libdvdcss2 non-free-codecs </b>(instalamos ciertos codecs que no disponen, en su totalidad, de licencia libre y que pueden ser requeridos para su uso en las ediciones de audio y video).</li>
+</ul>
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p>
+<p style="background-color: #ffff99">
+<font color="#ff0000"><b>TERCER PASO: SOLICITA INFORMACIÓN EN LOS FOROS DEL CURSO</b></font>
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+En caso de persistir errores en uso, bien de códecs, bien de posible instalación de paquetes, utilizaremos los foros del curso y el correo del ponente para resolver las dudas que puedan surgir.
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+<font style="background-color: #ffff99" color="#ff0000"><b>CUARTO</b></font><font color="#ff0000"><b><span style="background-color: #ffff99"> PASO: INSTALA ESTOS PAQUETES PARA PODER SEGUIR EL CURSO</span></b></font>
+</p>
+<ul>
+	<li>openshot</li>
+	<li>winff</li>
+	<li>shutter</li>
+	<li>kdenlive</li>
+	<li>sox</li>
+	<li>flac</li>
+	<li>dir2ogg</li>
+	<li>vlc</li>
+	<li>mjpegtool</li>
+	<li>lame</li>
+	<li>mencoder</li>
+	<li>acidrip</li>
+	<li>gogo</li>
+	<li>faac</li>
+	<li>ffmpeg2theora</li>
+	<li>mpg123</li>
+	<li>mpg321</li>
+</ul>
+<p>
+Recomendamos instalar los paquetes relacionados con <i><b>Java y Flash </b></i>para posibles problemas en el uso de algunos conversores.
+</p>
+<ul>
+	<li>sudo su apt-get install sun-java6-fonts sun-java6-jre sun-java6-plugin flashplugin-nonfre</li>
+</ul>
+<p>
+<i> Durante el curso se te indicará la instalación de otros paquetes.</i>
+</p>
+<p>
+&nbsp;
+</p>
+<font color="#ff0000"><b></b></font>
+<ol>
+</ol>
+</div><br/>
+</div>
+</div>
+</div>
+<div class="noprt" align="right"><a href="23_video_tutorial.html">&laquo; Anterior</a> | <a href="31_video_resumen_de_problemas.html"> Siguiente &raquo;</a></div>
+<p align="center">Jo.R.C.A. 2004 - 2011
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/es/88x31.png" /></a><br /><span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type">Edición de Audio y Video con Software Libre</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://jrcerdeira.es/moodle" property="cc:attributionName" rel="cc:attributionURL">Jos&#233; Ram&#243;n Cerdeira Alonso</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/">Creative Commons Reconocimiento-No comercial-Compartir bajo la misma licencia 3.0 Espa&#241;a License</a></p></div>
+</div>
+</body></html>

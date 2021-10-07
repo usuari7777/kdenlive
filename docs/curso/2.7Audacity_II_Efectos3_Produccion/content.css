@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Reset */
+
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+/*	font-size: 1em;   */
+	color: #333333;
+/*	margin: 0;   */
+/*	padding: 0;   */
+}
+
+
+/* ==========================
+    Restyling base.css 
+========================== */
+
+
+.block, .feedback {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.feedback {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: inherit;
+}
+
+/* styles for 'tips for completion' and 'pedagogical help' */
+
+.popupDiv {
+    background-color: #FFFFFF;
+    border: 2px solid #73B5E0;
+    padding: 4px;
+    margin-left: 15px;
+    text-align:left;
+    z-index:99;
+    -moz-border-radius: 3px;
+}
+
+.popupDivLabel {
+    text-align: center;
+    font: message-box;
+    font-weight: bold;
+    cursor:move;
+    margin: 0;
+	background-image: none;
+	background-color: #D5E9F6;
+	font-size: inherit;
+	color: inherit;
+}
+
+.popupDiv div {
+	padding: 4px;
+}
+
+.question span {
+	display: inline;
+	display: block;
+	width: 16px;
+	height: 16px;
+}
+
+.question span a {
+	text-decoration: none;
+	display: inline;
+}
+
+
+/* ==========================
+    Restyling content.css 
+========================== */
+
+
+body {
+	margin: 20px;
+    padding: 0;
+	background-color: #FFFFFF;
+}
+
+a {
+	color: #0000EE;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #551A8B;
+}
+
+/* --- Styles for the node/page titles --- */
+
+p#nodeTitle{
+	display: inherit;
+	font-size: 2em;
+	text-align: right;
+	font-weight: normal;
+	background-color: #808080;
+	color: #FFFFFF;
+	padding: 5px;
+}
+
+div#nodeDecoration {
+    padding: 0;
+    border-bottom: 0;
+    text-align: inherit;
+}
+
+
+/* --- iDevice Styles -- */
+
+.emphasis0, .emphasis1 {
+	padding: 15px 40px;
+}
+
+.emphasis1 {
+	margin: 40px 0;
+	position: relative;
+}
+
+.iDevice p, .iDevice div.block {
+	line-height: 1.5em;
+	text-align:justify;
+}
+
+.iDeviceTitle {
+	font-size: 2em;
+	padding-left: 10px;
+	margin-bottom: 20px;
+	display: block;
+	font-weight: bold;
+	position: static;
+    top: 0;
+}
+
+.iDevice_icon {
+	position: absolute;
+	top: -15px;
+	left: -15px;
+}
+
+.GalleryIdevice .iDeviceTitle {
+	margin: 0;
+}
+
+/* styles for iDevices with Feedback and form buttons */
+
+input.feedbackbutton {
+	background: none;
+}
+
+p.reading_feedback {
+	border: none;
+	background: none;
+}
+
+
+/* styles for image with text iDevice */
+
+.image_text { 
+	border: none; 
+	background: transparent;
+	padding: 0;  
+	margin: 0;   
+}
+
+
+/* ===========================
+    Generalitat Valenciana
+=========================== */
+
+
+body {
+	font-size: 75%;
+}
+big {
+	font-size: 1.1em;
+}
+small {
+	font-size: 0.9em;
+}
+#iDevice_inner {
+	margin: 10px 0;
+}
+blockquote {
+	margin-left: 20px;
+}
+ul, ol {
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+li {
+	list-style-position: outside;
+}
+.iDeviceTitle {
+	color: #63A4CF;
+}
+h1 {
+	font-size: 1.8em;
+	color: #63A4CF;
+	margin: 10px 0;
+	margin-top: 40px;
+}
+h2 {
+	font-size: 1.6em;
+	color: #B0B0B0;
+	margin: 10px 0;
+	margin-top: 20px;
+	padding-left: 10px;
+}
+h3 {
+	font-size: 1.5em;
+	color: #63A4CF;
+	margin: 10px 0;
+	margin-top: 20px;
+	padding-left: 20px;
+	font-style: italic;
+}
+h4 {
+	font-size: 1.3em;
+	color: #808080;
+	margin: 10px 0;
+	padding-left: 30px;
+	font-style: italic;
+}
+h5 {
+	font-size: 1.2em;
+	color: #63A4CF;
+	margin: 10px 0;
+	padding-left: 40px;
+	font-style: italic;
+}
+h6 {
+	font-size: 1.1em;
+	margin: 10px 0;
+	padding-left: 50px;
+	font-style: italic;
+}
+img, fieldset, hr {
+/*	border: none;  */
+}
+a, button {
+	cursor: pointer;
+}
+input {
+	margin: 1px;
+}
+input[type="button"], input[type="submit"], .feedbackbutton {
+	background-color: #ABD3EC;
+	border: 1px solid #73B5E0;
+	padding: 2px 4px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+hr {
+	clear: both;
+	height: 1px;
+	background-color: #E6E6E6;
+}
+.cita_bibliografica {
+	font-style: italic;	
+}
+code, pre {
+	font-family: "Courier New", Courier, monospace;
+}
+table {
+/*	border: 2px solid #E6E6E6;  */
+}
+.emphasis1 {
+	border: 1px solid #B0B0B0;
+	border-width: 1px 5px 5px 1px;
+}
+.tabla {
+	border: solid #B0B0B0;  
+	border-width: 1px 3px 3px 1px;
+	border-spacing: 0px;
+	border-collapse: collapse;	
+}
+.tabla td {
+	border: 2px solid #E6E6E6;
+	padding: 3px 6px 3px 6px;
+}
+.tabla th {
+	border: 2px solid #E6E6E6;
+	padding: 3px 6px 3px 6px;
+	background-color: #E6E6E6;
+}
+.tabla_azul {
+	border: solid #73B5E0;
+	border-width: 1px 3px 3px 1px;
+	border-spacing: 0px;
+	border-collapse: collapse;	
+}
+.tabla_azul td{
+	border: 2px solid #D5E9F6;
+	padding: 3px 6px 3px 6px;
+}
+.tabla_azul th {
+	border: 2px solid #D5E9F6;
+	padding: 3px 6px 3px 6px;
+	background-color: #D5E9F6;
+}
+.pie_pagina {
+	font-style: italic;
+	font-size: 0.9em;
+	text-align: center;
+	border: solid #E6E6E6;
+	border-width: 2px 0 0 0;
+	padding: 6px;
+	margin: 40px 0 0 0;
+}
+.pie_foto, .caption {
+	font-style: italic;
+	font-size: 0.9em;
+	margin: 3px 0 20px 0;
+	padding: 0;
+}
+.destacado {
+	padding: 1px;
+	padding-right: 3px;
+	padding-left: 3px;
+	background-color: #FFFF00;
+}
+.destacado_azul {
+	padding: 1px;
+	padding-right: 3px;
+	padding-left: 3px;
+	background-color: #D5E9F6;
+}
+.destacado_gris {
+	padding: 1px;
+	padding-right: 3px;
+	padding-left: 3px;
+	background-color: #E6E6E6;
+}
+.instruccion_informatica {
+	padding: 1px;
+	padding-right: 3px;
+	padding-left: 3px;
+    background-color: #E6E6E6;
+    border: 1px solid #B0B0B0;
+}
+.marco {
+	margin-left: 20px;
+	margin-right: 20px;
+	border: solid #73B5E0;
+	border-width: 1px 3px 3px 1px;
+	padding: 10px;
+}
+
